@@ -16,7 +16,7 @@ import com.vaadin.flow.theme.lumo.Lumo;
 @Theme(value = Lumo.class, variant = Lumo.DARK)
 public class LoginPage extends VerticalLayout implements BeforeEnterObserver {
     LoginForm login = new LoginForm();
-    Image image = new Image("https://kabjskdvbsdkd.s3.amazonaws.com/Remember.png","logo");
+    Image image = new Image("https://dailyusebaseadd.s3.amazonaws.com/rsz_logo_2.png","logo");
 
     public LoginPage(){
         addClassName("login-page");
